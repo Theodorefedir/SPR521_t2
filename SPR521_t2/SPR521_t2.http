@@ -1,0 +1,6 @@
+@SPR521_t2_HostAddress = http://localhost:5118
+
+GET {{SPR521_t2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
