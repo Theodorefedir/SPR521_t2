@@ -17,52 +17,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ItsFill"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ItsFill&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Theodorefedir/SPR521_t2.git",
-    "accountId": "7e02bb9f-be19-4f8d-b42c-d737b80af32a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Theodorefedir/SPR521_t2.git&quot;,
+    &quot;accountId&quot;: &quot;7e02bb9f-be19-4f8d-b42c-d737b80af32a&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SPR521_t2.DAL/Entities/SushiSet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SPR521_t2.DAL/Entities/SushiType.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LefXFNtmBrJIW9avSG0rnMBh8L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/sushi-entities",
-    "last_opened_file_path": "E:/IT/C#/LeetCode/SPR521_t2-dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/sushi-entities&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/IT/C#/LeetCode/SPR521_t2-dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SPR521_t2: http">
     <configuration name="SPR521_t2: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SPR521_t2/SPR521_t2.csproj" />
