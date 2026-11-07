@@ -14,4 +14,8 @@
     <ProjectReference Include="..\SPR521_t2.DAL\SPR521_t2.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Profiles\" />
+  </ItemGroup>
+
 </Project>

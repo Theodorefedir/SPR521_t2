@@ -6,6 +6,31 @@ public static class Seeder
 {
     public static void Seed(AppDbContext context)
     {
+
+        //Roles
+
+        if (!context.Roles.Any())
+        {
+            context.Roles.Add(new Role { Name = "Admin" });
+            context.Roles.Add(new Role { Name = "User" });
+            context.SaveChanges();
+        }
+
+        //Users
+
+        if (!context.Users.Any())
+        {
+            context.Users.Add(new User
+            {
+                UserName = "Admin",
+                Email = "admin@sushi.com",
+                DateOfBirth = DateTime.SpecifyKind(new DateTime(1990, 1, 1), DateTimeKind.Utc),
+                PasswordHash = "admin123",
+                RoleId = 1
+            });
+            context.SaveChanges();
+        }
+
         if (!context.SushiTypes.Any())
         {
             context.SushiTypes.Add(new SushiType { Name = "Роли" });
