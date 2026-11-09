@@ -24,6 +24,12 @@ public class AppDbContext : DbContext
             .WithMany(r => r.Users)
             .HasForeignKey(u => u.RoleId)
             .OnDelete(DeleteBehavior.Restrict);
+        
+        modelBuilder.Entity<SushiType>()
+            .HasMany(t => t.SushiSets)
+            .WithOne(s => s.SushiType)
+            .HasForeignKey(s => s.SushiTypeId)
+            .OnDelete(DeleteBehavior.Cascade);
 
         modelBuilder.Entity<Role>().HasData(
             new Role { Id = 1, Name = "Admin" },
