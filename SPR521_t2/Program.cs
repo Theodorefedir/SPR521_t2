@@ -16,9 +16,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(
         builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddScoped<ISushiSetRepository, SushiSetRepository>();
+
 builder.Services.AddValidatorsFromAssemblyContaining<CreateSushiTypeValidator>();
 
-builder.Services.AddAutoMapper(typeof(SushiTypeProfile));
+builder.Services.AddAutoMapper(cfg =>
+{
+    cfg.AddProfile<SushiTypeProfile>();
+});
 builder.Services.AddScoped<ISushiTypeRepository, SushiTypeRepository>();
 
 var app = builder.Build();
