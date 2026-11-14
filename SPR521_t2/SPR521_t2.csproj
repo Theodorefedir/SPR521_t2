@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SPR521_t2.BLL\SPR521_t2.BLL.csproj" />
     <ProjectReference Include="..\SPR521_t2.DAL\SPR521_t2.DAL.csproj" />
   </ItemGroup>
