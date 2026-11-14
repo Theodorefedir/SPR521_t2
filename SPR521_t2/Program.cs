@@ -18,7 +18,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateSushiTypeValidator>();
 
-builder.Services.AddAutoMapper(typeof(SushiTypeProfile));
+builder.Services.AddAutoMapper(cfg =>
+{
+    cfg.AddProfile<SushiTypeProfile>();
+});
 builder.Services.AddScoped<ISushiTypeRepository, SushiTypeRepository>();
 
 var app = builder.Build();
